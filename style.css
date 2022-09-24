@@ -1,0 +1,55 @@
+body.main {
+    background-image: url('images/home_page.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#web-title {
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 250%;
+}
+
+.title-box {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    opacity: 0.8;
+  }
+
+.content-box {
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    opacity: 0.8;
+  }
+
+  .content {
+    font-family: "Lucida Console", monospace;
+    font-size: 125%;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+  /* unvisited link */
+  .link:link {
+    color: black;
+  }
+  
+  /* visited link */
+  .link:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  .link:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  .link:active {
+    color: blue;
+  }
