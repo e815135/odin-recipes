@@ -31,9 +31,12 @@ body.main {
     opacity: 0.8;
   }
 
-  .content, .ingredients, .method {
+  .content, .ingredients-title, .method-title {
     font-family: "Lucida Console", monospace;
     font-size: 125%;
+  }
+  .ingredients, .method {
+    font-family: "Lucida Console", monospace;
   }
 
   .return {
